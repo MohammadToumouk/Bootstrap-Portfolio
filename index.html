@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>My First Bootstrap Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MyPortfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills-section">MySkills</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                      
+                      <li><a class="dropdown-item" href="#Projects-section">My own Projects</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#Projects-section">Group Projects</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactme">Contact me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <hero>
+            <div class="Hero-text">
+            <h1>Bringing your ideas to life, one pixel at a time</h1>
+            <p>Greetings,<span class="Bluetext"> I am Mohammad Toumouk</span> , a Full-Stack Web Developer, and I cordially welcome you to my portfolio.
+             As you scroll down, every <span class="pixellogo"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2017db4-b491-460a-afa1-1305060068ce/db0lkn3-f2e4a973-a05a-4096-9c38-948c9a80c5ff.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YyMDE3ZGI0LWI0OTEtNDYwYS1hZmExLTEzMDUwNjAwNjhjZVwvZGIwbGtuMy1mMmU0YTk3My1hMDVhLTQwOTYtOWMzOC05NDhjOWE4MGM1ZmYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oeg5BWJ5xhK6_wq3qkeLxTld4s_y6AINlzrylVGllUw" width="50px" height="50px" class="pixelpic"> Pixel </span> will unravel more about my skills, strengths, and the noteworthy projects I have worked on.
+             At the bottom of the page, you will find a convenient way to get in touch with me and initiate our collaboration.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button id="mybtn" class="btn btn-primary me-md-2" type="button"><a href="#Projects-section">My Projects</a></button>
+                <button id="mybtn" class="btn btn-primary" type="button"><a href="#contactme">Contact Me</a></button>
+              </div>
+            </div>
+
+            <div class="Hero-image">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/developer-doing-programming-opening-multi-working-tabs-on-the-desktop-2381447-1997255.png" width="500px" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://static-00.iconduck.com/assets.00/web-developer-illustration-512x373-gpemoxa0.png" width="500px" class="d-block w-100" alt="..." >
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://ouch-cdn2.icons8.com/aa-wDxZIZMZXPRM9yfA3__fncUXSlsBJ0L1vPAtmuW0/rs:fit:608:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDc3/L2UyMTMwZGI2LWM1/NjEtNDMzMC04MDYw/LWFmNzQ3NDVmNzkw/Yi5zdmc.png" width="500px" class="d-block w-100 h-auto" alt="..." >
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </hero>
+
+        <div id="skills-section">
+            <div class="skills-text">
+            <h2>My Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ab quasi, deleniti impedit reprehenderit nesciunt.</p>
+             </div>
+            <div id="skills-list">
+
+            <label for="progress">HTML</label>
+            <meter id="progress fullmeter" value="0.9"></meter>
+
+            <label for="progress">CSS</label>
+            <meter id="progress fullmeter" value="0.7"></meter>
+
+            <label for="progress">Javascript</label>
+            <meter id="progress" value="0.5"></meter>
+
+            <label for="progress">Java</label>
+            <meter id="progress" value="0.4"></meter>
+
+            <label for="progress">C#</label>
+            <meter id="progress" value="0.3"></meter>
+
+            <label for="progress">Figma</label>
+            <meter id="progress" value="0.5"></meter>
+
+            <label for="progress">Git & Github </label>
+            <meter id="progress fullmeter" value="0.7"></meter>
+
+            <label for="progress">Bootstrap </label>
+            <meter id="progress fullmeter" value="0.7"></meter>
+
+            <label for="progress">Project Managment </label>
+            <meter id="progress fullmeter" value="0.9"></meter>
+
+            <label for="progress">Problem Solving </label>
+            <meter id="progress fullmeter" value="0.8"></meter>
+
+           
+         </div>   
+
+         <p>Languages</p>
+
+         <div class="languages">
+
+            <label for="progress">Arabic </label>
+            <meter class="phmeter" id="progress fullmeter" value="1"></meter>
+
+            <label for="progress">English </label>
+            <meter id="progress fullmeter" value="0.9"></meter>
+
+            <label for="progress">German </label>
+            <meter id="progress fullmeter" value="0.9"></meter>
+
+            <label for="progress">Turkish </label>
+            <meter id="progress" value="0.7"></meter>
+
+            <label for="progress">Spanish </label>
+            <meter id="progress" value="0.5"></meter>
+
+         </div>
+
+        </div>
+
+        <div id="Projects-section">
+            <h3>MyProjects:</h3>
+
+            <ul class="projectslist">
+                <li>All Projects</li>
+                <li>My Projects</li>
+                <li>Group Projects</li>
+            </ul>
+
+            <div class="container text-center">
+                <div class="row row-cols-2">
+                    <div box>
+                        <p class="fade-text">Mcdonalds Landing-Page</p>
+                  <div class="col"><a href="https://mohammadtoumouk.github.io/MCS/" target="_blank"><img src="https://besthqwallpapers.com/Uploads/8-3-2020/124123/mcdonalds-red-logo-4k-red-brickwall-mcdonalds-logo-brands.jpg" class="projectspicture"></a></div>
+                    </div>
+                    <div box>
+                        <p class="fade-text">Second Project</p>
+                  <div class="col"><a href="https://mohammadtoumouk.github.io/Zodiac-Webpage/" target="_blank"><img src="https://www.capco.com/-/media/CapcoMedia/Capco-2/V2-Hero-Banners/3_part_blog_series_landing_page_capital_markets.ashx" class="projectspicture"></a></div>
+                    </div>
+                    <div box>
+                        <p class="fade-text">Landing Page Tajam.CO</p>
+                  <div class="col"><a href="https://adhanif.github.io/tajam_group2/" target="_blank"><img src="https://st2.depositphotos.com/10376142/44709/v/600/depositphotos_447096280-stock-video-yellow-leo-zodiac-sign-icon.jpg" class="projectspicture"></a></div>
+                    </div>
+                    <div box>
+                        <p class="fade-text">Gaming Landing-Page</p>
+                  <div class="col"><a href="https://mohammadtoumouk.github.io/Early-Langingpage-Desgin-/" target="_blank"><img src="https://cdn.wallpapersafari.com/4/24/yomiXr.jpg" class="projectspicture"></a></div>
+                    </div>
+                </div>
+              </div>
+            
+
+
+        </div>
+        <footer>
+            <div id="contactme">
+                <h3 class="reachout">Reach out To Me:</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NoobMaster69">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+
+            <h3 class="links">Important to Check out</h3>
+
+            <ul class="footer-logos">
+                <li><a href="https://github.com/MohammadToumouk" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="githubaccount" class="logos" width="75px" height="auto"></a></li>
+                <li><a href="https://github.com/MohammadToumouk" target="_blank"><img src="https://logowik.com/content/uploads/images/761_twitter.jpg" alt="githubaccount" class="logos" width="95px" height="auto"></a></li>
+                <li><a href="https://github.com/MohammadToumouk" target="_blank"><img src="https://www.clipartmax.com/png/middle/186-1861294_email-icon-square-png.png" alt="githubaccount" class="logos" width="65px" height="auto"></a></li>
+            </ul>
+        </footer>
+
+
+
+        
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
